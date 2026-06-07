@@ -1,6 +1,7 @@
 # AI Resume Screener
+https://railway.com/project/eec53814-3589-4d86-929e-f8127748f377/service/003298f6-0ee5-4980-8411-5489d22f0f1e?environmentId=d04ed67e-511b-4dea-adf3-fc0c5d06faff
 
-An AI-powered REST API + web app that screens resumes against job descriptions using Claude (Anthropic API).
+An AI-powered REST API + web app that screens resumes against job descriptions using Claude (groq API).
 
 ## Features
 - Upload PDF or DOCX resume
