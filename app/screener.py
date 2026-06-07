@@ -4,9 +4,9 @@ from groq import Groq
 import json
 import os
 
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-
 def screen_resume(resume_text: str, job_description: str) -> dict:
+    client = Groq(api_key=os.getenv("GROQ_API_KEY"))  # moved inside function
+    
     prompt = f"""You are an expert ATS system and senior HR recruiter with 10+ years of experience.
 
 Analyze the resume against the job description carefully.
