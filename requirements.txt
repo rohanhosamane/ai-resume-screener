@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-multipart
+anthropic
+PyPDF2
+python-docx
+mysql-connector-python
+python-dotenv
